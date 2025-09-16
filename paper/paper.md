@@ -1,21 +1,24 @@
 ---
-title: 'DBCLS BioHackathon 2025 report: Template for the very long title'
-title_short: 'BioHackJP25: How we found breakfast'
+title: 'DBCLS BioHackathon 2025 report: RDFlow: Continuous documentation and monitoring of evolving RDF resources'
+title_short: 'RDFlow: Shexer-Driven Validation Meets rdf-config driven Dashboards — Managing the Evolution of RDF Graphs'
 tags:
   - Semantic web
   - Ontologies
   - Workflows
+  - shexer
+  - rdf-config
 authors:
-  - name: First Author
+  - name: Andra Waagmeester
+    orcid: 0000-0001-9773-4008
     affiliation: 1
-  - name: Last Author
+  - name: Author x
     orcid: 0000-0000-0000-0000
     affiliation: 2
 affiliations:
-  - name: First Affiliation
+  - name: AmsterdamUMC, Amsterdam, the Netherlands
+    ror: 05grdyy37
     index: 1
-  - name: ELIXIR Europe
-    ror: 044rwnt51
+  - name: Institute
     index: 2
 date: 15 September 2025
 cito-bibliography: paper.bib
@@ -28,12 +31,12 @@ group: YOUR-PROJECT-NAME-GOES-HERE
 git_url: https://github.com/biohackathon-japan/bh25-bhxiv-template
 # This is the short authors description that is used at the
 # bottom of the generated paper (typically the first two authors):
-authors_short: First Author \emph{et al.}
+authors_short: Andra Waagmeester \emph{et al.}
 ---
 
 # Introduction
 
-As part of the DBCLS BioHackathon 2025, we here report...
+RDFlow is a lightweight platform that automatically generates documentation and dashboards for RDF resources as they evolve. By combining Shexer for shape-based validation and rdf-config for flexible configurations, RDFlow keeps track of asynchronous updates in ontologies, vocabularies, and datasets. Think of it as a live heartbeat monitor for linked data—helping researchers and developers stay in sync with continuously changing RDF resources without manual effort.
 
 ## Author information
 
