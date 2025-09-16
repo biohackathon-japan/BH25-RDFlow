@@ -34,16 +34,11 @@ git_url: https://github.com/biohackathon-japan/bh25-bhxiv-template
 authors_short: Andra Waagmeester \emph{et al.}
 ---
 
-# Introduction
+# Abstract
 
 RDFlow is a lightweight platform that automatically generates documentation and dashboards for RDF resources as they evolve. By combining Shexer for shape-based validation and rdf-config for flexible configurations, RDFlow keeps track of asynchronous updates in ontologies, vocabularies, and datasets. Think of it as a live heartbeat monitor for linked data—helping researchers and developers stay in sync with continuously changing RDF resources without manual effort.
 
 ## Author information
-
-Information about the authors is given in the [YAML](https://en.wikipedia.org/wiki/YAML) format at the top of this template.
-For authors you provide their names, their affiliations, and ideally their [ORCID](https://orcid.org/)
-identifier. For affiliations, the [Research Organization Registry](https://ror.org/) (ROR) identifier can be given.
-For example, this is the author information for this template:
 
 ```yaml
 authors:
@@ -60,7 +55,7 @@ affiliations:
     index: 2
 ```
 
-# Formatting
+# Instruction
 
 This document use Markdown and you can look at [this tutorial](https://www.markdowntutorial.com/).
 
